@@ -1,0 +1,15 @@
+pytorch-lightning==1.7.7
+omegaconf==2.2.3
+nerfacc==0.2.2
+matplotlib
+opencv-python
+imageio
+imageio-ffmpeg
+scipy
+PyMCubes
+maskedtensor==0.0.5
+torchmetrics==0.11.4
+jaxtyping==0.2.19
+
+git+https://github.com/NVlabs/tiny-cuda-nn/#subdirectory=bindings/torch
+git+https://github.com/NVlabs/nvdiffrast/
