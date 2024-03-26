@@ -31,15 +31,15 @@ AssertionError: rgbs must have 3 channels, got torch.Size([47503, 6])
  ``` 
   DATA
   ├── NeRFactor
-  │   ├── light-probes
-  │   └── rendered-images
-  │       ├── lego-3072
+  │   ├── light-probes/
+  │   └── rendered-images/
+  │       ├── lego-3072/
   │       └──......
   ├── shiny-relight
-      ├── light-probes
-      └── synthesis-images
-           ├── car_mossy_forest_1k
-           └── toaster_garden_nook_1k
+      ├── light-probes/
+      └── synthesis-images/
+           ├── car_mossy_forest_1k/
+           └── toaster_garden_nook_1k/
  ```
 
 ## Run
