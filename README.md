@@ -29,7 +29,7 @@ AssertionError: rgbs must have 3 channels, got torch.Size([47503, 6])
 
  The file structure should be like:
  ``` 
-  DATA
+  DATA/
   ├── NeRFactor
   │   ├── light-probes/
   │   └── rendered-images/
