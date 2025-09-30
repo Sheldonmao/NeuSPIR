@@ -1,6 +1,6 @@
 # NeuS-PIR: Learning Relightable Neural Surface using Pre-Integrated Rendering
 
-[arXiv](https://arxiv.org/abs/2306.07632)
+[[arXiv]](https://arxiv.org/abs/2306.07632)  [[Paper]](https://ieeexplore.ieee.org/document/11145203)
 
 This repository contains an efficient method for jointly learning geometry, material properties, and illumination from multi-view image observations. This inverse rendering pipeline incorporates **Pre-Integrated Rendering** and **Neural Surface Representation** to learn *high-quality geometry* with *all-frequency illumination*. **Indirect illumination fields** can be distilled from the learned representations, further recovering the complex illumination effect like inter-reflection.
 
@@ -68,10 +68,16 @@ python launch.py --config configs/neusPIRindirect-shiny.yaml --train --gpu 0
 ## Citation and acknowledgements
 If NeuS-PIR is relevant to your project, please cite our associated [paper](https://arxiv.org/abs/2306.07632):
 ```
-@article{mao2023neus,
-  title={NeuS-PIR: Learning Relightable Neural Surface using Pre-Integrated Rendering},
-  author={Mao, Shi and Wu, Chenming and Shen, Zhelun and Zhang, Liangjun},
-  journal={arXiv preprint arXiv:2306.07632},
-  year={2023}
+@ARTICLE{11145203,
+  author={Mao, Shi and Wu, Chenming and Shen, Zhelun and Wang, Yifan and Wu, Dayan and Zhang, Liangjun},
+  journal={Computational Visual Media}, 
+  title={NeuS-PIR: Learning Relightable Neural Surface Using Pre-Integrated Rendering}, 
+  year={2025},
+  volume={11},
+  number={4},
+  pages={727-744},
+  keywords={Lighting;Geometry;Rendering (computer graphics);Image reconstruction;Surface reconstruction;Material properties;Neural radiance field;Optimization;Estimation;Training;inverse rendering;pre-integrated rendering;neural implicit representation},
+  doi={10.26599/CVM.2025.9450493}
 }
+
 ```
