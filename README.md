@@ -66,7 +66,7 @@ python launch.py --config configs/neusPIRindirect-shiny.yaml --train --gpu 0
 - [NVDiffrec](https://github.com/NVlabs/nvdiffrec): implement efficient split-sum rendering based on the mipmapping implemented in [NVDiffrast](https://github.com/NVlabs/nvdiffrast). Out work adopts the similar approach and adapt it for NeuS rendering.
 
 ## Citation and acknowledgements
-If NeuS-PIR is relevant to your project, please cite our associated [paper](https://arxiv.org/abs/2306.07632):
+If NeuS-PIR is relevant to your project, please cite our associated [paper](https://ieeexplore.ieee.org/document/11145203):
 ```
 @ARTICLE{11145203,
   author={Mao, Shi and Wu, Chenming and Shen, Zhelun and Wang, Yifan and Wu, Dayan and Zhang, Liangjun},
